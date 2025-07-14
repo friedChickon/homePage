@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+/* ========================================
+
+                    HTML reset 
+
+  ======================================== */
+
+* {box-sizing: border-box;}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    color: inherit;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display:block;
+}
+
+ol,
+ul,
+dl {
+    list-style:none;
+}
+
+
+a {
+    padding:0;
+    border: 0;
+    margin: 0;
+    vertical-align: baseline;
+    font-size: 100%;
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    cursor: pointer;
+}
+
+img {vertical-align: middle;}
+
+table {border-collapse: collapse;}
+
+i,
+em {
+    line-height: inherit;
+}
+
+input,
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    border-radius: 0;
+    background: none;
+    vertical-align: middle; 
+    font-family: inherit;
+}
+
+input::-ms-clear {display: none;}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; 
+}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration{
+	display:none;
+}
+
+select::-ms-expand {display: none;}
+
+textarea {
+    vertical-align:middle;
+    border: 0;
+}
+
+button {
+    color: inherit;
+    line-height: inherit;
+    font: inherit;
+    cursor: pointer;
+}
+
+
+/* ================================================
+
+                    // HTML reset 
+                        
+================================================ */
